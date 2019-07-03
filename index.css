@@ -9,3 +9,32 @@ nav li
 {
 	display: inline-block;
 }
+
+
+article
+{
+
+	text-align:center;
+	font-family: Arial;
+	font-size: 15px;
+	
+
+}
+
+.Logo
+{
+	margin-top: 150px;
+
+}
+
+
+.Recherche
+{ 
+	
+	border: 2px solid black;
+	padding: 5px;
+	margin:3.5px;
+	background: grey;
+	color: black;
+	opacity: 0.8;
+ }
