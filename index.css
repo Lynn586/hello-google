@@ -1,15 +1,18 @@
+
+
 nav ul
 {
 	padding: 0px;
 	margin: 0px;
 	list-style-type: none;
+	display: flex;
+	justify-content: flex-end;
 }
 
 nav li
 {
-	display: inline-block;
+margin-left: 15px;
 }
-
 
 article
 {
@@ -27,14 +30,68 @@ article
 
 }
 
+.barre input
+{
+	border-radius: 100px 100px 100px 100px;
+	border-color: grey;
+	width: 600px;
+	height: 30px;
+
+	;
+}
 
 .Recherche
 { 
 	
-	border: 2px solid black;
+	border: 2px none;
 	padding: 5px;
 	margin:3.5px;
 	background: grey;
 	color: black;
 	opacity: 0.8;
  }
+
+.France
+{	
+	
+	position: fixed;
+	bottom: 12%;
+	left: 0;
+	width: 1000px;
+	color: rgba(0,0,0,.54);
+}
+
+ .pieddroit
+{
+	display: flex;
+	flex-wrap: wrap;
+	position:fixed;
+	justify-content: space-around;
+	width: 40%;
+	bottom: 0;
+	left: 0;
+	padding-top: 8px;
+	padding-bottom: 10px;
+	font-family: Arial;
+	font-size: 13px;
+	color: rgba(0,0,0,.54);
+
+
+}
+
+.piedgauche
+{
+	display: flex;
+	flex-wrap: wrap;
+	flex-position: flex-end;
+	justify-content: space-between;
+	width: 40%;
+	position:fixed;
+	bottom: 0;
+	right: 0;
+	padding-top: 8px;
+	padding-bottom: 10px;
+	font-family: Arial;
+	font-size: 13px;
+	color: grey;
+}
